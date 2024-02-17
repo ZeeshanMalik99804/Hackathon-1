@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: rgb(0, 60, 255);
+}
+
+.nav{
+    width: 100%;
+    height: 150px;
+    padding: 0 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    margin-left: 70px;
+}
+.navicons{
+    display: flex;
+}
+.navicon{
+    margin: 0 10px;
+
+}
+.navtabs{
+    /* display: flex; */
+    position: absolute;
+    top: 100px;
+}
+ul{
+    display: flex;
+    margin-left: 50px;
+    font-size: 22px;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+
+}
+.stays{
+    border: 1px solid white;
+    background-color: dodgerblue ;
+    border-radius: 50px;
+    width: 70px;
+}
+.headertext{
+    text-indent: 100px;
+}
+table{
+    position: absolute;
+    top: 375px;
+    left: 15%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+td{
+    border: 3px solid rgb(255, 255, 0);
+    border-radius: px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.tablesearch{
+    width: 100px;
+    height: 50px;
+    background-color: dodgerblue;
+}
+.offersmain{
+    margin-top: 100px;
+    padding: 50px;
+}
+.offerboxes{
+    display: flex;
+    justify-content: space-between;
+}
+.offerbox{
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.box1{
+    background-image: url(./Images/image1.jpeg);
+    background-size: cover;
+    margin-right: 10px;
+    color: white;
+    padding: 30px;
+}
+.box2{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.box2img{
+    width: 180px;
+    height: 180px;
+}
+.box2 >img{
+    position: absolute;
+    right: 60px;
+    width: 180px;
+    height: 180px;
+
+}
+.destinations{
+    height: 500px;
+    margin: 50px;
+    border: 1px solid;
+}
+.destinyboxes{
+    display: flex;
+    margin: 10px;
+}
+.lahore{
+    border-radius: 20px;
+    margin: 10px;
+    width: 50%;
+    height: 300px;
+    background-image: url(./Images/image3.jpg);
+    background-size: cover;
+}
+.dubai{
+    border-radius: 20px;
+    margin: 10px;
+    width: 50%;
+    height: 300px;
+    background-image: url(./Images/image4.jpg);
+    background-size: cover;
+}
+
